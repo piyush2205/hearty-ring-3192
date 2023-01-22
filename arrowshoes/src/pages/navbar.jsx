@@ -56,7 +56,7 @@ export  default function  Navbar(){
                 <span style={{color:"#FFFFFF",fontSize:"15px",paddingRight:"30px" , fontFamily: 'sans-serif' }}>
                 TAKE AN EXTRA
                 </span>
-                <span style={{color:"#FFFFFF"}} >
+                <span style={{color:"#FFFFFF"}}>
 
                 </span>
                    
@@ -120,9 +120,14 @@ export  default function  Navbar(){
            
            {/* </li> */}
            {/* <li style={{color: "#333",}}> */}
+            
             <img src={img2} alt="login" style={{width:"4%",marginLeft:"10px"}}/>
-            <a href="" style={{color: "#333",marginLeft:"5px",fontSize:"16px",marginTop:"-5px"}}> log in/Register</a>
-           
+            
+            <Link  style={{color: "#333",marginLeft:"5px",fontSize:"16px",marginTop:"-5px"}}> log in/Register</Link>
+            
+            
+
+                                     
            {/* </li> */}
        </ul>
         </div>
@@ -137,7 +142,7 @@ export  default function  Navbar(){
 
     
               
-     <Box backgroundColor="#fff" position="relative" zIndex={"55"} w="100%" display="flex">
+     <Box backgroundColor="#FFFFFF" position="relative" zIndex={"55"} w="100%" display="flex" border="1px solid grey" borderTop="0">
                  
      <div style={{display:"flex",marginLeft:"100px"}}>
      
@@ -152,7 +157,7 @@ export  default function  Navbar(){
     <p style={{marginLeft:"20px" ,color: "#333"}}>Accessories</p>
 
 
-        </div>            
+    </div>            
          </Box>
                      
     
